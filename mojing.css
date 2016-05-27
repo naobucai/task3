@@ -1,0 +1,103 @@
+html {font-size: 62.5%;}
+
+div#content {
+    margin: 0 auto;
+    width:100%;
+    max-width: 64em;
+
+}
+
+.nav { /*导航栏*/
+    height: 8.8em;
+    background: #22292c;
+    width: 100%;
+}
+
+.img-back { /*导航栏返回图片*/
+    margin-top: 2.4em;
+    margin-left: 1.4em;
+    float: left;
+}
+
+.text-back { /*导航栏返回文字*/
+    color: #f8f6f5;
+    font-size: 2.4em;
+    float: left;
+    margin-top: 1em;
+    margin-left: 0.54em;
+
+}
+
+.nav-text-title { /*导航栏魔镜标题*/
+
+    color: #f8f6f5;
+    font-size: 3.4em;
+    width:6.8em;
+    line-height: 2.5em;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.img-menu { /*导航栏更多图片*/
+    float: right;
+    margin-top: 3.9em;
+    margin-right: 1.8em;
+}
+
+.main { /*主体内容*/
+    height: 100.9em;
+    background: #68cdd5;
+}
+
+.main-img-back { /*主页面返回图片*/
+    float: left;
+    margin-top: 2em;
+    margin-left: 3.5em;
+}
+
+.main-img-logo { /*logo图片*/
+    clear: both;
+    display: block;
+    margin:auto;
+    padding-top: 11.6em ;
+
+
+}
+
+.main-img-left { /*下面左边的图片*/
+    float: left;
+    margin-left: 13.9em;
+    margin-top: 17.8em;
+}
+
+.main-img-right { /*下面右边的图片*/
+    float: right;
+    margin-right: 12.3em;
+    margin-top: 17.8em;
+}
+
+.main-text-left { /*左边图片下的文字*/
+    margin-left: 5em;
+    line-height: 2em;
+    font-size: 2.4em;
+    color: #ffffff;
+}
+
+.main-text-right { /*右边图片下的文字*/
+    font-size: 2.4em;
+    line-height: 2em;
+    color: #ffffff;
+    float: right;
+    margin-right: 4.625em;
+}
+
+.main-text { /*中间的介绍文字*/
+    font-size: 2.9em;
+    color: #ffffff;
+
+    margin-top: auto;
+    padding-top: 4.17em;
+    padding-left: 3.14em;
+    padding-right: 3.41em;
+}
