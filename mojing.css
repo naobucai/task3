@@ -4,124 +4,62 @@ body {
     margin: 0; padding: 0;
 }
 
+img {
+    max-width: 100%;
+}
+
 div#content {
     margin: 0 auto;
     width:100%;
-    max-width: 64em;
+    max-width: 640px;
 
-}
-
-.nav { /*导航栏*/
-    height: 8.8em;
-    background: #22292c;
-    width: 100%;
-    text-align: center;
-    position: relative;
-}
-
-.back {
-    width: 83px;
-    height: 36px;
-    position: absolute;
-    left: 17px;
-    top: 24px;
-
-}
-
-.img-back { /*导航栏返回图片*/
-    float: left;
-}
-
-.text-back { /*导航栏返回文字*/
-    color: #f8f6f5;
-    font-size: 2.4em;
-    float: right;
-}
-
-.nav-text-title { /*导航栏魔镜标题*/
-
-    color: #f8f6f5;
-    font-size: 34px;
-    margin:0 100px 0 100px;
-    line-height: 88px;
-
-
-}
-
-.img-menu { /*导航栏更多图片*/
-    position:absolute;
-    top: 39px;
-    right: 18px;
 }
 
 .main { /*主体内容*/
     background: #68cdd5;
     overflow:hidden;
+
 }
 
 .main-img-back { /*主页面返回图片*/
-    float: left;
-    margin-top: 2em;
-    margin-left: 3.5em;
+    width: 8.43%;
+    max-width: 54px;
+    padding-top: 3%;
+    padding-left: 3%;
 }
 
 .main-img-logo { /*logo图片*/
-    clear: both;
-    display: block;
+    width:28.28%;
+    max-width: 181px;
     margin:0 auto;
-    padding-top: 11.6em ;
-
-
+    padding-top: 4.17% ;
 }
 
-.left {
+.footer {
+    width: 100%;
+    padding-top: 17.67%;
+    padding-bottom: 20rem;
+}
+
+.footer-img {
     float: left;
     width:50%;
-    height: 125px;
-    margin-top: 178px;
-    margin-bottom: 205px;
-    position: relative;
+    text-align: center;
 }
 
-.right {
-    float: right;
-    width: 50%;
-    height: 125px;
-    margin-top: 178px;
-    position: relative;
-}
-
-.main-img-left { /*下面左边的图片*/
-    margin-left: 43%;
-}
-
-.main-img-right { /*下面右边的图片*/
-    float: right;
-    margin-right: 38%;
-}
-
-.main-text-left { /*左边图片下的文字*/
-    font-size: 24px;
+.footer b {
+    display: block;
+    font-size: 2.1rem;
     color: #ffffff;
-    position: absolute;
-    bottom: 0;
-    left: 37.8%;
-}
+    line-height: 6.3rem;
 
-.main-text-right { /*右边图片下的文字*/
-    font-size: 24px;
-    color: #ffffff;
-    position: absolute;
-    bottom: 0;
-    right: 34%;
 }
 
 .main-text { /*中间的介绍文字*/
-    font-size: 2.9em;
+    font-size: 2.9rem;
     color: #ffffff;
-
-    margin-top: auto;
-    padding-top: 4.17em;
-    padding-left: 3.14em;
-    padding-right: 3.41em;
+    line-height: 5.2rem;
+    padding-top: 11.81%;
+    padding-left: 14.21%;
+    padding-right: 15.46%;
 }
