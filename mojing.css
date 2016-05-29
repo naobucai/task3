@@ -1,5 +1,9 @@
 html {font-size: 62.5%;}
 
+body {
+    margin: 0; padding: 0;
+}
+
 div#content {
     margin: 0 auto;
     width:100%;
@@ -11,43 +15,48 @@ div#content {
     height: 8.8em;
     background: #22292c;
     width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.back {
+    width: 83px;
+    height: 36px;
+    position: absolute;
+    left: 17px;
+    top: 24px;
+
 }
 
 .img-back { /*导航栏返回图片*/
-    margin-top: 2.4em;
-    margin-left: 1.4em;
     float: left;
 }
 
 .text-back { /*导航栏返回文字*/
     color: #f8f6f5;
     font-size: 2.4em;
-    float: left;
-    margin-top: 1em;
-    margin-left: 0.54em;
-
+    float: right;
 }
 
 .nav-text-title { /*导航栏魔镜标题*/
 
     color: #f8f6f5;
-    font-size: 3.4em;
-    width:6.8em;
-    line-height: 2.5em;
-    text-align: center;
-    margin: 0 auto;
+    font-size: 34px;
+    margin:0 100px 0 100px;
+    line-height: 88px;
+
 
 }
 
 .img-menu { /*导航栏更多图片*/
-    float: right;
-    margin-top: 3.9em;
-    margin-right: 1.8em;
+    position:absolute;
+    top: 39px;
+    right: 18px;
 }
 
 .main { /*主体内容*/
-    height: 100.9em;
     background: #68cdd5;
+    overflow:hidden;
 }
 
 .main-img-back { /*主页面返回图片*/
@@ -59,37 +68,52 @@ div#content {
 .main-img-logo { /*logo图片*/
     clear: both;
     display: block;
-    margin:auto;
+    margin:0 auto;
     padding-top: 11.6em ;
 
 
 }
 
-.main-img-left { /*下面左边的图片*/
+.left {
     float: left;
-    margin-left: 13.9em;
-    margin-top: 17.8em;
+    width:50%;
+    height: 125px;
+    margin-top: 178px;
+    margin-bottom: 205px;
+    position: relative;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    height: 125px;
+    margin-top: 178px;
+    position: relative;
+}
+
+.main-img-left { /*下面左边的图片*/
+    margin-left: 43%;
 }
 
 .main-img-right { /*下面右边的图片*/
     float: right;
-    margin-right: 12.3em;
-    margin-top: 17.8em;
+    margin-right: 38%;
 }
 
 .main-text-left { /*左边图片下的文字*/
-    margin-left: 5em;
-    line-height: 2em;
-    font-size: 2.4em;
+    font-size: 24px;
     color: #ffffff;
+    position: absolute;
+    bottom: 0;
+    left: 37.8%;
 }
 
 .main-text-right { /*右边图片下的文字*/
-    font-size: 2.4em;
-    line-height: 2em;
+    font-size: 24px;
     color: #ffffff;
-    float: right;
-    margin-right: 4.625em;
+    position: absolute;
+    bottom: 0;
+    right: 34%;
 }
 
 .main-text { /*中间的介绍文字*/
