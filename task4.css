@@ -1,0 +1,105 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    background-color: #eff0f4;
+    margin: 0;
+}
+
+#header { /*头部框架*/
+    height: 88px;
+    background-color: #5fc0cd;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.header-btn { /*按钮属性*/
+    font-size: 2.8rem;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #5fc0cd;
+    border:none;
+    color: #ffffff;
+}
+
+.left { /*设置关闭按钮位置*/
+    float: left;
+    margin-left: 2%;
+}
+.right { /*设置注册按钮位置*/
+    float: right;
+    margin-right: 2%;
+}
+
+.header-title { /*标题属性*/
+    font-size: 3.2rem;
+    line-height: 8.8rem;
+    color: #ffffff;
+}
+
+#box { /*中间输入框框架*/
+    height: 214px;
+    margin-bottom: 69px;
+}
+
+.phone-box {
+    height: 100px;
+    line-height: 100px;
+    background-color: #ffffff;
+    margin-bottom: 14px;
+}
+
+
+
+#box img {
+    vertical-align: middle;
+    margin-left: 3%;
+}
+
+#box input {
+    vertical-align: middle;
+    overflow: hidden;
+    height: 52px;
+    margin-left: 46px;
+    width: 60%;
+    font-size: 2.9rem;
+    text-indent: 20px;
+    border:none;
+    border-left: 2px solid #eff0f4;
+}
+
+/*更改placeholder下文本的颜色*/
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #eff0f4;
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #eff0f4;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+    color: #eff0f4;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: #eff0f4;
+}
+
+.login {
+    width: 100%;
+    height: 100px;
+    background-color: #5fc0cd;
+    font-size: 3rem;
+}
+
+.footer {
+    font-size: 2.8rem;
+    color: #5fc0cd;
+    border: none;
+    background-color: #eff0f4;
+    float: right;
+    margin-top: 18px;
+    margin-right: 2%;
+}
