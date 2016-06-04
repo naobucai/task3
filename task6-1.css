@@ -1,0 +1,115 @@
+
+body {
+    background-color: #f0f0f0;
+    min-width: 320px;
+    position: relative;
+    margin: 0 auto;
+}
+
+* {
+    padding: 0;
+    margin: 0
+}
+
+img {
+    width:100%;
+}
+
+
+.navbar {
+    height: 44px;
+    width: 100%;
+    background-color: #29bde0;
+}
+
+.icon-nav {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 44px;
+    margin-left: 11px;
+}
+
+.lastGame {
+    position: absolute;
+    left: 18px;
+    right: 18px;
+    margin-top: 13px;
+    background-color: #ffffff;
+    border: 1px solid #c9c9c9;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    color: #9a9a9a;
+}
+
+.icon-last {
+    font-size: 21px;
+    float: right;
+    margin-right: 10px;
+
+}
+
+.startGame {
+    position: absolute;
+    left: 18px;
+    right: 18px;
+    margin-top: 86px;
+    background-color: #ffffff;
+    border: 1px solid #c9c9c9;
+}
+
+.name {
+    font-size: 18px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #fbb435;
+    border-bottom: 2px solid #fbb435;
+}
+
+.start-btn {
+    height: 107px;
+    position: relative;
+}
+
+.btn {
+    position: absolute;
+    left: 27px;
+    right: 27px;
+    top: 15px;;
+    bottom: 25px;
+    background-color: #69d1e9;
+    color: #ffffff;
+    text-align: center;
+    line-height: 67px;
+}
+
+.title {
+    position: absolute;
+    bottom: 0;
+    font-size: 12px;
+    text-align: center;
+    width: 100%;
+    color: #787878;
+}
+
+.jiantou {
+    font-size: 27px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    color: #fbb435;
+}
+
+.diandiandian {
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    color: #69d1e9;
+    margin: 10px 0;
+}
+
+.btn:hover{
+    cursor:hand;
+    background:#29bde0;
+}

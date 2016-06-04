@@ -1,0 +1,141 @@
+
+body {
+    background-color: #29bde0;
+    min-width: 320px;
+}
+
+* {
+    padding: 0;
+    margin: 0
+}
+
+.navbar {
+    height: 44px;
+    width: 100%;
+    background-color: red;
+    line-height: 44px;
+    color: #ffffff;
+
+}
+
+.left {
+    float: left;
+    margin-left: 12px;
+}
+
+.left i {
+    border: 1px solid #ffffff;
+    padding: 1px;
+}
+
+.right {
+    float: right;
+    margin-right: 12px;
+    color: #ffffff;
+}
+
+.title {
+    text-align: center;
+    position: absolute;
+    left: 40px;
+    right: 40px;
+}
+
+.box {
+    height: 41px;
+    width: 100%;
+    background-color: #b9e9f5;
+    line-height: 41px;
+    color: #636f72;
+}
+
+.box span {
+    margin-left: 23px;
+}
+
+.playback {
+    float: right;
+    margin-top: 8px;
+    margin-right: 8px;
+    height: 26px;
+    width: 26px;
+    line-height: 26px;
+    text-align: center;
+    border-radius: 13px;
+    background-color: #fbb435;
+    color: #ffffff;
+}
+
+.arrow {
+    width: 0;
+    height:0;
+    border-top: 7px solid #b9e9f5;
+    border-left: 7px solid #29bde0;
+    border-right: 7px solid #29bde0;
+    border-bottom: 7px solid #29bde0;
+    margin-left: 35px;
+}
+
+.text {
+    font-size: 12px;
+    margin-left: 35px;
+    color: #ffffff;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 85px;
+    background-color: #29bde0;
+    border-top: 2px solid #ffffff;
+    width: 100%;
+}
+
+.footer-btn {
+    position: absolute;
+    top: 21px;
+    bottom: 21px;
+    left: 39px;
+    right: 39px;
+    background-color: #fbb435;
+    text-align: center;
+    line-height: 43px;
+    color: #ffffff;
+}
+
+.content {
+    padding: 4% 4% 0 4%;
+
+    overflow: hidden;
+    margin-bottom: 85px;
+}
+
+.nongming {
+    background-color: #5fc0cd;
+    width: 24%;
+    margin-left: 14%;
+    margin-bottom: 10%;
+    float: left;
+}
+
+.first {
+    margin-left: 0;
+}
+
+.identity {
+    padding: 25% 0;
+    text-align: center;
+    background-color: #f5c97b;
+}
+
+.number {
+    font-size: 11px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #83b09a;
+}
+
+.border {
+    border: 2px solid #ffffff;
+}
