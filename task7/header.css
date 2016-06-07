@@ -1,0 +1,98 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+image {
+    max-width: 100%;
+}
+
+.header-container-bgc {
+    width: 100%;
+    background-color: #fafafa;
+
+}
+
+.header-container {
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    width: 90%;
+    min-width: 940px;
+    overflow: hidden;
+    background-color: #fafafa;
+
+}
+
+.header-container-left {
+    float: left;
+    font-size: 1.4rem;
+    color: #60b3ce;
+}
+
+.header-container-right {
+    float: right;
+}
+
+.header-container-right i {
+    font-size: 2.6rem;
+    letter-spacing: 2.0rem;
+    color: #31b37d;
+}
+
+.login {
+    float: right;
+    color: #23527c;
+}
+
+.login b {
+    color: #31b37d;
+}
+
+.header-nav-bgc {
+    background-color: #29b078;
+}
+
+.header-nav {
+    height: 97px;
+    margin: 0 auto;
+    width: 90%;
+    min-width: 940px;
+    overflow: hidden;
+    background-color: #29b078;
+}
+
+.header-nav-logo {
+    padding-top: 20px;
+    float: left;
+}
+
+.header-nav-bar {
+    font-size: 1.6rem;
+    float: right;
+}
+
+.display {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0 10px;
+    line-height: 93px;
+    text-decoration: none;
+    color: #ffffff;
+    cursor:pointer;
+    border-bottom: 4px solid #29b078;
+}
+
+
+
+.last {
+    margin-right: 0;
+}
+
+.display:hover {
+    border-bottom: 4px solid #ffffff;
+}

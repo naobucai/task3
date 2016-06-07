@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <link rel="stylesheet" type="text/css" href="task7-1.css"/>
+    <link rel="stylesheet" type="text/css" href="header.css"/>
+    <link rel="stylesheet" type="text/css" href="footer.css"/>
+    <link rel="stylesheet" type="text/css" href="border-1.css"/>
+    <link rel="stylesheet" type="text/css" href="lianxifangshi/iconfont.css"/>
+</head>
+<body>
+    <header>
+        <div class="header-container-bgc">
+            <div class="header-container">
+                <div class="header-container-left">咨询电话：010-59478634</div>
+                <div class="header-container-right">
+                    <i class="iconfont">&#xe601;&#xe600;&#xe602;&#xe603;</i>
+                    <div class="login">登陆<b>|</b>注册</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="header-nav-bgc">
+            <div class="header-nav">
+                <div class="header-nav-logo">
+                    <img src="img/logo.png" />
+                </div>
+
+                <div class="header-nav-bar">
+                    <a href="#" class="display border-1"><b>首页</b></a>
+                    <a href="#" class="display border-2"><b>职业殿堂</b></a>
+                    <a href="#" class="display border-3"><b>我的学院</b></a>
+                    <a href="#" class="display border-4"><b>学习资料</b></a>
+                    <a href="task7-2.html" class="display border-5"><b>合作公司</b></a>
+                    <a href="#" class="display border-6"><b>关于我们</b></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="wrap">
+        <div class="carousel">
+            <div><img src="img/banner-1.jpg" /></div>
+            <div><img src="img/banner-2.jpg" /></div>
+            <div><img src="img/banner-3.jpg" /></div>
+            <div><img src="img/banner-4.jpg" /></div>
+        </div>
+
+        <button class="pre btn-left iconfont"><span>&#xe604;</span></button>
+        <button class="next btn-right iconfont"><span>&#xe605;</span></button>
+    </div>
+    <script>
+        (function () {
+            var carousel = document.querySelector(".carousel");
+            var img = carousel.querySelectorAll("div");
+            var len = img.length;
+            [].forEach.call(img, function (item) {
+                item.style.width = (100 / len) + "%";
+            });
+            carousel.style.left = "0%";
+            carousel.style.width = (100 * len) + "%";
+            var pre = document.querySelector(".pre");
+            var next = document.querySelector(".next");
+            var i = 0;
+            next.onclick = function () {
+                var left = carousel.style.left;
+                if (i < len - 1) {
+                    carousel.style.left = (parseInt(left) - 100) + "%";
+                    i++;
+                }
+                else if (i == len - 1) {
+                    carousel.style.left = "0%";
+                    i = 0;
+                }
+            };
+            pre.onclick = function () {
+                var left = carousel.style.left;
+                if (i > 0) {
+                    carousel.style.left = (parseInt(left) + 100) + "%";
+                    i--;
+                } else if (i == 0) {
+                    carousel.style.left = -parseInt(carousel.style.width) + 100 + "%";
+                    i = len - 1;
+                }
+            };
+        }());
+    </script>
+    <div class="home-content">
+        <div class="free">
+            <div class="icon-free"><img src="img/home-title-icon1.png" /></div>
+
+            <b>免费</b>
+            <p>而且比看视频更高效</p>
+        </div>
+        <div class="free">
+            <div class="icon-free"><img src="img/home-title-icon1.png" /></div>
+
+            <b>免费</b>
+            <p>而且比看视频更高效</p>
+        </div>
+        <div class="free free-last">
+            <div class="icon-free"><img src="img/home-title-icon1.png" /></div>
+
+            <b>免费</b>
+            <p class="p-bottom">而且比看视频更高效</p>
+        </div>
+        <div class="home-class">
+            <b>184</b>
+            <p>班级</p>
+            <b>4867</b>
+            <p>弟子</p>
+        </div>
+    </div>
+    <div class="teaching-wrap">
+        <div class="teaching">
+            <div>
+                <b class="teaching-title">实战教学</b>
+                <p>一线技术十余年积累，教学体系与众不同</p>
+            </div>
+
+            <div class="teaching-wrap-text">
+                <div class="teaching-text teaching-text-left">
+                    <div class="teaching-wrap-border">
+                        <b>职业介绍</b>
+                        <p>最接地气的互联网职业介绍,详细描述发展前景，薪酬范围，入门门槛。</p>
+                    </div>
+
+                </div>
+                <div class="teaching-text">
+                    <div class="teaching-wrap-border">
+                        <b>职业介绍</b>
+                        <p>最接地气的互联网职业介绍,详细描述发展前景，薪酬范围，入门门槛。</p>
+                    </div>
+                </div>
+                <div class="teaching-text">
+                    <div class="teaching-wrap-border">
+                        <b>职业介绍</b>
+                        <p>最接地气的互联网职业介绍,详细描述发展前景，薪酬范围，入门门槛。</p>
+                    </div>
+                </div>
+                <div class="teaching-text teaching-text-right">
+                    <div class="teaching-wrap-border">
+                        <b>职业介绍</b>
+                        <p>最接地气的互联网职业介绍,详细描述发展前景，薪酬范围，入门门槛。</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="present-wrap">
+        <div class="present-title">
+            <b>职业介绍</b>
+            <p>对互联网的了解，从这里开始</p>
+        </div>
+
+        <div class="profession-wrap profession-wrap-left">
+            <div class="profession">
+                <b>CSS前端工程师</b>
+            </div>
+
+            <a href="#" class="present-type">
+                    <p>职业介绍</p>
+            </a>
+
+
+        </div>
+        <div class="profession-wrap">
+            <div class="profession">
+                <b>CSS前端工程师</b>
+            </div>
+
+            <a href="#" class="present-type">
+                <p>职业介绍</p>
+            </a>
+
+
+        </div>
+        <div class="profession-wrap">
+            <div class="profession">
+                <b>CSS前端工程师</b>
+            </div>
+
+            <a href="#" class="present-type">
+                <p>职业介绍</p>
+            </a>
+
+
+        </div>
+        <div class="profession-wrap profession-wrap-right">
+            <div class="profession">
+                <b>CSS前端工程师</b>
+            </div>
+
+            <a href="#" class="present-type">
+                <p>职业介绍</p>
+            </a>
+
+
+        </div>
+
+        <div class="profession-wrap profession-wrap-left">
+            <div class="profession">
+                <b>CSS前端工程师</b>
+            </div>
+
+            <a href="#" class="present-type">
+                <p>职业介绍</p>
+            </a>
+
+
+        </div>
+        <div class="profession-wrap">
+            <div class="profession">
+                <b>CSS前端工程师</b>
+            </div>
+
+            <a href="#" class="present-type">
+                <p>职业介绍</p>
+            </a>
+
+
+        </div>
+        <div class="profession-wrap">
+            <div class="profession">
+                <b>CSS前端工程师</b>
+            </div>
+
+            <a href="#" class="present-type">
+                <p>职业介绍</p>
+            </a>
+
+
+        </div>
+        <div class="profession-wrap profession-wrap-right">
+            <div class="profession">
+                <b>CSS前端工程师</b>
+            </div>
+
+            <a href="#" class="present-type">
+                <p>职业介绍</p>
+            </a>
+
+
+        </div>
+    </div>
+
+    <div class="way-wrap">
+        <div class="way-title">
+            <div class="way-title-p">
+                <b>学习方式</b>
+                <p>线上免费高效，线下疯狂特训</p>
+            </div>
+            <div class="way-on-line">
+
+                <div class="way-on-line-img">
+                    <div class="square"></div>
+                    <img src="img/Method1.png"/>
+                </div>
+
+                <div class="way-on-line-text">
+                    <div>
+                        <p class="size">线上</p>
+                        <p class="text-type">最快最好最颠覆的首创教学体系价值24000元的课程完全免费</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="way-on-line">
+                <div class="way-on-line-text">
+                    <div>
+                        <p class="size">线上</p>
+                        <p class="text-type">最快最好最颠覆的首创教学体系价值24000元的课程完全免费</p>
+                    </div>
+
+                </div>
+                <div class="way-on-line-img">
+                    <div class="square-left"></div>
+                    <img src="img/Method1.png"/>
+                </div>
+            </div>
+
+            <a href="#" class="details">
+                查看详情
+            </a>
+        </div>
+
+
+    </div>
+
+    <div class="student-warp">
+        <div class="student-title">
+            <b>优秀学员</b>
+            <p>优秀的学长，伴随你成长</p>
+        </div>
+
+        <div class="student-content student-content-left">
+            <div class="icon-student">
+                <img src="img/guchen.jpg">
+            </div>
+            <div class="student-name">
+                <b>古尘【CSS】</b>
+                <p>好好学习，好好生活。</p>
+            </div>
+            <div class="student-daily-warp">
+                <a href="#" class="student-daily">
+                    查看日报
+                </a>
+            </div>
+        </div>
+        <div class="student-content">
+            <div class="icon-student">
+                <img src="img/guchen.jpg">
+            </div>
+            <div class="student-name">
+                <b>古尘【CSS】</b>
+                <p>好好学习，好好生活。</p>
+            </div>
+            <div class="student-daily-warp">
+                <a href="#" class="student-daily">
+                    查看日报
+                </a>
+            </div>
+        </div>
+        <div class="student-content">
+            <div class="icon-student">
+                <img src="img/guchen.jpg">
+            </div>
+            <div class="student-name">
+                <b>古尘【CSS】</b>
+                <p>好好学习，好好生活。</p>
+            </div>
+            <div class="student-daily-warp">
+                <a href="#" class="student-daily">
+                    查看日报
+                </a>
+            </div>
+        </div>
+        <div class="student-content student-content-right">
+            <div class="icon-student">
+                <img src="img/guchen.jpg">
+            </div>
+            <div class="student-name">
+                <b>古尘【CSS】</b>
+                <p>好好学习，好好生活。</p>
+            </div>
+            <div class="student-daily-warp">
+                <a href="#" class="student-daily">
+                    查看日报
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-border">
+            <div class="footer-warp">
+                <div class="footer-warp-1">
+                    <p>技能树 — 改变你我</p>
+                    <div class="link">
+                        <a href="" class="link-margin link-left">关于我们</a>|
+                        <a href="" class="link-margin">联系我们</a>|
+                        <a href="task7-2.html" class="link-margin">合作公司</a>
+                    </div>
+                </div>
+                <div class="footer-warp-2">
+                    <p>技能树 — 改变你我</p>
+                    <div class="link">
+                        <a href="" class="link-margin link-left">关于我们</a>|
+                        <a href="" class="link-margin">联系我们</a>|
+                        <a href="" class="link-margin">合作公司</a>
+                    </div>
+                </div>
+                <div class="footer-warp-3">
+                    <p>技能树 — 改变你我</p>
+                    <div class="link">
+                        <a href="" class="link-margin link-left">关于我们</a>|
+                        <a href="" class="link-margin">联系我们</a>|
+                        <a href="" class="link-margin">合作公司</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="footer-bottom">
+            Copyright © 2015 北京葡萄藤信息技术有限公司 All Rights Reserved | 京ICP备15035574号-1
+        </div>
+
+    </footer>
+</body>
+</html>

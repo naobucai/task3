@@ -1,0 +1,411 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.wrap {
+    position: relative;
+    overflow: hidden;
+}
+.carousel {
+    position: relative;
+    transition: all 0.5s ease-in 0s;
+    overflow: hidden;
+}
+
+.carousel img {
+    min-width: 940px;
+    max-width: 100%;
+}
+
+.carousel div {
+    float: left;
+}
+
+.btn-left {
+    position: absolute;
+    left:0;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    font-size: 50px;
+    text-align: center;
+    background-color:transparent;
+    border: 0;
+    color: #eeeeee;
+    outline: none;
+}
+
+.btn-right {
+    position: absolute;
+    right:0;
+    top: 0;
+    bottom: 0;
+    width: 100px;
+    font-size: 50px;
+    text-align: center;
+    background-color:transparent;border:0;
+    color: #eeeeee;
+    outline:none;
+}
+
+.home-content {
+    margin: 0 auto;
+    width: 90%;
+    min-width: 940px;
+
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.free {
+    text-align: center;
+    float: left;
+    padding: 0 25px;
+    width: 20%;
+}
+
+.free p {
+    margin: 15px 0;
+    font-size: 1.6rem;
+    color: #999999;
+}
+
+.free b {
+    display: block;
+    margin: 15px 0;
+    font-size: 2rem;
+}
+
+.icon-free {
+    text-align: center;
+}
+
+.free-last {
+    border-right: 1px solid #9a9a9a;
+}
+
+.home-class {
+    float: left;
+    margin-left: 30px;
+}
+
+.home-class p {
+    margin: 10px 0;
+    font-size: 1.6rem;
+    color: #999;
+}
+
+.home-class b {
+    margin: 10px 0;
+    font-size: 1.6rem;
+    color: #26a26f;
+}
+
+.teaching-wrap {
+    background-color: #fafafa;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.teaching {
+    width: 90%;
+    min-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.teaching-title {
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.teaching-wrap-text {
+    width: 100%;
+    overflow: hidden;
+
+    padding-top: 50px;
+}
+
+.teaching-text {
+    width: 22%;
+    background-color: #fff;
+    margin-left: 3%;
+    float: left;
+}
+
+.teaching-text b {
+    display: block;
+    padding: 40px 0 20px 0;
+    font-size: 1.4rem;
+}
+
+.teaching-text p {
+    display: block;
+    padding: 0 40px 40px 40px;
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+.teaching-text-left {
+    margin-left: 1.5%;
+}
+
+.teaching-text-right {
+    margin-right: 1.5%;
+}
+
+.teaching-wrap-border {
+    border: 1px solid #e8e8e8;
+}
+
+.present-wrap {
+    width: 90%;
+    min-width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.present-title {
+    text-align: center;
+}
+
+.present-title b {
+    display: block;
+    font-size: 1.6rem;
+}
+
+.present-title p {
+    margin: 30px 0;
+    font-size: 1.2rem;
+}
+
+.profession-wrap {
+    float: left;
+    width: 22%;
+
+    margin-left: 3%;
+
+    margin-top: 50px;
+}
+
+.profession {
+    font-size: 2.6rem;
+    display: block;
+    padding: 88px 0;
+    text-align: center;
+    background-color: #9e7ed3;
+}
+.present-type {
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-size: 1.4rem;
+    border: 1px solid #333;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.present-type:hover {
+    border: 1px solid red;
+    color: red;
+}
+
+.profession-wrap-left {
+    margin-left: 1.5%;
+}
+
+.profession-wrap-right {
+    margin-right: 1.5%;
+}
+
+.way-wrap {
+    background-color: #f8f8f8;
+}
+
+.way-title {
+    width: 90%;
+    min-width: 940px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    padding: 50px 0;
+}
+
+.way-title b {
+    display: block;
+    font-size: 1.6rem;
+}
+
+.way-title-p p {
+    margin: 30px 0;
+    font-size: 1.2rem;
+}
+
+.way-on-line {
+    overflow: hidden;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.way-on-line-img{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    position: relative;
+}
+
+.way-on-line-img img {
+    width: 100%;
+    height: 300px;
+}
+
+.way-on-line-text
+{
+    float: left;
+    background-color: #ffffff;
+    height: 300px;
+    text-align: center;
+    width: 50%;
+    color: #9c9999;
+    padding-top: 130px;
+
+}
+
+.size {
+    font-size: 1.8rem;
+}
+
+.way-on-line-text p {
+    margin: 0;
+}
+
+.text-type {
+    padding: 10px 30% 0 30%;
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+.square {
+    z-index: 2000;
+    position: absolute;
+    right: 0;
+    top: 125px;
+    border-right: 25px solid #ffffff;
+    border-left: 25px solid transparent;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+}
+
+.square-left {
+    position: absolute;
+    left: 0;
+    top: 125px;
+    border-right: 25px solid transparent;
+    border-left: 25px solid #ffffff;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+}
+
+.details {
+    display: block;
+    margin: 50px auto;
+    width: 180px;
+    height: 54px;
+    background-color: #ff650e;
+    color: #ffffff;
+    font-size: 1.4rem;
+    line-height: 54px;
+    text-decoration: none;
+}
+
+.details:hover {
+    opacity: 0.8;
+}
+
+.student-warp {
+    width: 90%;
+    min-width: 940px;
+    text-align: center;
+    margin:0 auto;
+    padding: 50px 0;
+    overflow: hidden;
+}
+
+.student-title b {
+    display: block;
+    font-size: 1.6rem;
+}
+
+.student-title p {
+    margin: 30px 0;
+    font-size: 1.2rem;
+}
+
+.student-content {
+    margin-top: 50px;
+    width: 22%;
+    margin-left: 3%;
+    float: left;
+}
+
+.icon-student {
+    margin: 0 auto;
+    width: 108px;
+    height: 108px;
+    border-radius: 108px;
+    overflow: hidden;
+}
+
+.icon-student img {
+    max-width: 100%;
+}
+
+.student-name {
+    text-align: center;
+}
+
+.student-name b {
+    display: block;
+    padding: 35px 0;
+    font-size: 1.7rem;
+}
+
+.student-name p {
+    font-size: 1.6rem;
+    color: #a1a1a1;
+}
+
+.student-daily {
+    display: block;
+    height: 48px;
+    border: 1px solid #a1a1a1;
+    line-height: 48px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.student-daily:hover {
+    border: 1px solid red;
+    color: red;
+}
+
+.student-content-left {
+    margin-left: 1.5%;
+}
+
+.student-content-right {
+    margin-left: 1.5%;
+}
