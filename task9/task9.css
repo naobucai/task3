@@ -1,0 +1,342 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.minWidth {
+    width: 62.5%;
+    min-width: 875px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.backgroundColor {
+    width: 100%;
+    background-color: #1d7ad9;
+}
+
+.header {
+    color: #ffffff;
+    font-size: 1.6rem;
+    line-height: 40px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-register {
+    color: #333333;
+    background-color: #ffffff;
+    float: right;
+    padding: 0 25px;
+}
+
+.header-login {
+    color: #ffffff;
+    float: right;
+    padding: 0 13px;
+    border-left: 1px solid #ffffff;
+}
+
+.backgroundColor-nav {
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+.nav-box {
+    float: right;
+    padding: 28px 0;
+    font-size: 1.6rem;
+}
+
+.nav-box-title {
+    display: inline-block;
+    padding: 15px 17px;
+    background-color: #ffffff;
+    text-decoration: none;
+    color: #333333;
+    margin-left: 30px;
+    border-radius: 4px;
+    border-right: 1px solid #e6e6e6;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.one-title {
+    margin-left: 0;
+    color: #ffffff;
+    background-color: #1d7ad9;
+    border: none;
+}
+
+.backgroundColor-step {
+    width: 100%;
+    background-color: #ffffff;
+
+}
+
+.step {
+    font-size: 1.6rem;
+    padding: 30px 45px 30px 25px;
+    float: right;
+    border-top: 5px solid #cccccc;
+    color: #cccccc;
+    position: relative;
+    margin-top: 40px;
+}
+
+.one-step {
+    border-top: 5px solid #ff7f02;
+    color: #ff7f02;
+}
+
+.step-number {
+    color: #ffffff;
+    background-color: #cccccc;
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+    border-radius: 2.4rem;
+    width: 2.4rem;
+    text-align: center;
+    margin: -67px auto;
+}
+
+.one-step-number {
+    background-color: #ff7f02;
+}
+
+.box-step {
+    overflow: hidden;
+}
+
+.title-step {
+    font-size: 1.8rem;
+    padding-left: 10px;
+    border-left: 4px solid #1d7ad9;
+    margin-top: 40px;
+}
+
+.box {
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    overflow: hidden;
+    padding: 10px ;
+    font-size: 1.6rem;
+    color: #1d7ad9;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.icon {
+    display: block;
+    float: left;
+    margin-right: 10px;
+
+}
+
+.icon-box {
+    height: 19px;
+    width: 23px;
+    background: url(img/sprite.png) -69px -8px no-repeat;
+}
+
+.border {
+    border: 1px solid #f2f2f2;
+    border-top: none;
+}
+
+.box-radio {
+    background-color: #fbfcff;
+    font-size: 1.6rem;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.box-option {
+    float: left;
+    margin-right: 5%;
+}
+
+.btn-radio {
+    opacity: 0;
+    position: absolute;
+
+}
+
+.border input[type=radio] + span {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 1.6rem;
+    height: 1.6rem;
+    margin: 0 1rem;
+    border: solid 1px black;
+    border-radius: 0.8rem;
+    vertical-align: middle;
+}
+
+.border input[type="radio"]:checked + span {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 1.6rem;
+    height: 1.6rem;
+    margin: 0 1rem;
+    border: solid .6rem #1277dc;
+    border-radius: .8rem;
+    vertical-align: middle;
+}
+
+.details {
+    float: right;
+    margin-right: 20px;
+}
+
+select {
+    /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/
+    border: solid 1px #e8e8e8;
+
+    /*很关键：将默认的select选择框样式清除*/
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+
+    /*在选择框的最右侧中间显示小箭头图片*/
+    background: url(img/jiantou.gif)  no-repeat scroll 70px center transparent;
+
+
+    /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+
+    padding: 5px 35px 5px 5px;
+}
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand { display: none; }
+
+.box1 {
+    border-radius: 0;
+    margin: 0;
+}
+
+.icon-size {
+    height: 24px;
+    width: 26px;
+    background: url(img/sprite.png) -43px -4px no-repeat;
+}
+
+.size {
+    float: left;
+}
+
+.size-radio {
+    line-height: 35px;
+}
+
+.text {
+    width: 70px;
+    height: 30px;
+}
+
+.set-size label {
+    margin-right: 50px;
+}
+
+.set-size {
+    overflow: hidden;
+
+}
+
+.marginTop {
+    margin-top: 30px;
+}
+
+.icon-cut {
+    height: 24px;
+    width: 19px;
+    background: url(img/sprite.png) -25px -4px no-repeat;
+}
+
+.btn {
+    padding: 90px 0;
+    text-align: center;
+    border-top: 1px #e7e7e7 solid;
+}
+
+.next-btn {
+    color: #ffffff;
+    width: 180px;
+    height: 50px;
+    background-color: #e15053;
+    border: none;
+    border-radius: 4px;
+}
+
+.backgroundColor-bottom {
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+.bottom {
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.text-box {
+    color: #999999;
+    padding: 60px 0;
+    width: 33.333333333%;
+    float: left;
+}
+
+.fontSize-span {
+    font-size: 1.6rem;
+}
+
+.center-text {
+    padding: 0 30px;
+    font-size: 1.2rem;
+    line-height: 20px;
+}
+
+.center-text a {
+    display: inline-block;
+    margin-left:20px;
+    text-decoration: none;
+    color: #999999;
+}
+
+.right-img {
+    width: 92px;
+    height: 92px;
+    float: right;
+}
+
+.right {
+    float: right;
+    overflow: hidden;
+}
+
+.padding-right {
+    padding: 50px 0;
+}
+
+.right-text {
+    float: right;
+    font-size: 1.2rem;
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+.footer {
+    color: #ffffff;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px 0;
+}
