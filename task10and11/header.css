@@ -68,9 +68,7 @@ img {
 
 }
 
-.first-a {
-    border-bottom: 4px solid #ffffff;
-}
+
 
 .nav-a a:hover {
     border-bottom: 4px solid #ffffff;
@@ -92,10 +90,18 @@ img {
     margin-top: 30px ;
 }
 
-.carousel-icon {
-    position: absolute;
-    top: 50%;
-    font-size: 5rem;
-    margin-top: -3rem;
+.nav-a {
+    float: right;
+}
 
+a:focus {  outline:none;   -moz-outline:none;}
+
+@media only screen and (max-width:  768px) {
+    .nav-a  {
+        float: none;
+    }
+
+    .nav-a a {
+        float: none;
+    }
 }

@@ -11,22 +11,14 @@ html {
     background-color: #26a26f;
 }
 
-.footer-border {
-
-}
-
 .footer-warp {
-    width: 90%;
-    min-width: 940px;
-    background-color: #26a26f;
-    margin: 0 auto;
-    padding: 30px 0;
     color: #fff;
     overflow: hidden;
+    padding: 30px 0;
 }
 
 .footer-warp-1 {
-    float: left;
+
 }
 
 .footer-warp-1 p {
@@ -35,6 +27,7 @@ html {
 
 .link {
     margin-top: 20px;
+    font-size: 1.4rem;
 }
 
 .link a{
@@ -56,21 +49,16 @@ html {
 
 .footer-bottom {
     text-align: center;
-    width: 90%;
-    min-width: 940px;
-    background-color: #26a26f;
-    margin: 0 auto;
     border-top: 1px solid #32c086;
     color: #ffffff;
     line-height: 25px;
+    font-size: 1.2rem;
 }
 
 .footer-warp-2 {
-    float: left;
-    margin-left: 15%;
+    font-size: 1.6rem;
 }
 
 .footer-warp-3 {
-    float: right;
-
+    font-size: 1.6rem;
 }
