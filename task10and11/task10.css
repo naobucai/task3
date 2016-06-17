@@ -236,7 +236,7 @@ html {
 
 .student-warp {
     text-align: center;
-    padding: 50px 0;
+    padding: 50px;
 }
 
 .student-title b {
@@ -300,7 +300,8 @@ html {
     border-bottom: 4px solid #ffffff;
 }
 
-@media only screen and (max-width:  992px) {
+
+@media (max-width:  992px) {
     .number, .student {
         text-align: center;
     }
@@ -309,6 +310,7 @@ html {
         border-left: none;
         margin: 0;
         padding: 0;
+        text-align: center !important;
     }
 }
 

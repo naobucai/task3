@@ -15,14 +15,10 @@ img {
     max-width: 100%;
 }
 
-.width {
-    width: 90%;
-    margin: 0 auto;
-}
-
 .top {
     font-size: 1.4rem;
-    padding: 6px 0;
+    padding-top: 6px;
+    padding-bottom: 6px;
     color: #56a087;
 }
 
@@ -49,6 +45,9 @@ img {
 .warp-nav {
     width: 100%;
     background-color: #29b078;
+    margin-bottom: 0 !important;
+    border: 0 !important;
+    border-radius: 0;
 }
 
 .nav-logo {
@@ -56,52 +55,92 @@ img {
 
 }
 
-.nav-a a{
-    font-size: 1.6rem;
-    padding: 38px 10px;
-    display: block;
-    float: left;
+.nav-a li a{
+    font-size: 1.6rem !important;
     text-decoration: none;
-    margin-left: 30px;
-    color: #ffffff;
-    text-align: center;
+    color: #ffffff !important;
+
+    display: block;
+    height: 97px;
+    line-height: 93px !important;
+    margin: 0 15px ;
+    padding: 0 10px ;
 
 }
 
+.last {
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+}
 
+.nav-a li {
+    padding: 0;
+    margin: 0;
+
+}
+
+.btn-nav {
+    border: 0;
+    background-color: transparent;
+    margin-top: 35px;
+}
+
+.btn-nav:hover {
+    background-color: #ffffff !important;
+}
 
 .nav-a a:hover {
     border-bottom: 4px solid #ffffff;
 }
 
 .bgc {
-    background-color: #1a6d4b;
+    background-color: #1a6d4b !important;
+    color: #1a6d4b;
 }
 
 .navbar-toggle:hover {
-    background-color: #ffffff;
+    background-color: #ffffff !important;
 }
 
 .navbar-toggle:hover span {
-    background-color: #adadad;
+    background-color: #adadad !important;
 }
 
 .margin-button {
     margin-top: 30px ;
 }
 
-.nav-a {
-    float: right;
-}
+
 
 a:focus {  outline:none;   -moz-outline:none;}
 
-@media only screen and (max-width:  768px) {
+.float{
+    float:right;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+@media (max-width:  768px) {
     .nav-a  {
         float: none;
     }
 
-    .nav-a a {
+    .nav-a li {
+        padding: 0;
+        margin: 0;
+    }
+
+    .nav-a li a {
         float: none;
+        padding: 0 ;
+        margin: 0 ;
+    }
+
+    .float {
+        float: none;
+        text-align: center;
     }
 }

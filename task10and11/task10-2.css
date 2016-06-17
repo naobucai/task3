@@ -70,3 +70,7 @@
 .color {
     color: black;
 }
+
+.image img {
+    width: 100%;
+}
